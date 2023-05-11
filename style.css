@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #013c25;
+    margin:auto;
+}
+
+footer{
+    text-align: center;
+    font-size: small;
+    padding-bottom:0%;
+    color:aliceblue;
+}
+
+a:link, a:visited{
+    text-decoration:none;
+    color:aquamarine;
+}
+
+a:hover{
+    color:white;
+    font-weight: 200;
+}
+
+
+#olive{
+    background-color: crimson;
+    background-size: 100% 100%;
+    border-radius: 10%;
+    padding: 10%;
+    margin: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+    color:beige;
+    height: 300px;
+}
+
+#cadence{
+    background-color: rgb(255, 115, 0);
+    background-size: 100% 100%;
+    border-radius: 10%;
+    padding: 10%;
+    margin: 5%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+    color:beige;
+    height: 300px;
+}
+
+#werner{
+    background-color: rgb(65, 45, 181);
+    background-size: 100% 100%;
+    border-radius: 10%;
+    padding: 10%;
+    margin: 5%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+    color:beige;
+    height: 300px;
+}
+
+#maria{
+    background-color: goldenrod;
+    background-size: 100% 100%;
+    border-radius: 10%;
+    padding: 10%;
+    margin: 5%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+    color:beige;
+    height: 300px;
+}
+
+#atienna{
+    background-color: green;
+    background-size: 100% 100%;
+    border-radius: 10%;
+    padding: 10%;
+    margin: 5%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+    color:beige;
+    height: 300px;
+}
+
+#jericho{
+    background-color: rgb(193, 191, 191);
+    background-size: 100% 100%;
+    border-radius: 10%;
+    padding: 10%;
+    margin: 5%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+    color: black;
+    height: 300px;
+}
+.oliveimage{
+    background-image: url("/images/olivetrue.png");
+}
+
+.cadenceimage{
+    background-image: url("/images/cadencetrue.png");
+}
+
+.wernerimage{
+    background-image: url("/images/wernertrue.png");
+}
+
+.mariaimage{
+    background-image: url("/images/marietrue.png");
+}
+
+.jerichoimage{
+    background-image: url("/images/jeritrue.png");
+}
+
+.atiennaimage{
+    background-image: url("/images/atiennatrue.png");
+}
+#specialButton{
+    display: none;
+}
+
+.center{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0%;
+    margin-top: 0%;
+}
+
+@media (min-width:400px){
+   #specialButton{
+     display:contents;
+    }
+    #gallery{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+    }
+    .holder{
+        background-color: #242527;
+        height: 100%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        margin: 5%;
+    } 
+}
+@media (min-width:750px){
+    #specialButton{
+        display: none;
+    }
+    #gallery{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto;    
+    }
+}

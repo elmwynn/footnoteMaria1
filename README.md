@@ -1,0 +1,1 @@
+This is a simple dynamic/responsive website to preview new chapters of Six Chances. There are hidden secrets on the website via event listeners.
