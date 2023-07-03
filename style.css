@@ -24,117 +24,136 @@ a:hover{
     font-weight: 200;
 }
 
+#humans {
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0);
+}
 
-#olive{
-    background-color: crimson;
-    background-size: 100% 100%;
-    border-radius: 10%;
-    padding: 10%;
-    margin: 5%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+#dont {
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0);
+}
+
+#bloom {
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0);
+}
+
+#humans2{
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.1);
+    filter:blur(4px);
+}
+
+#humans3 {
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.2);
+    filter:blur(4px);
+}
+
+#humans4 {
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.4);
+    filter:blur(3px);
+}
+
+#humans5 {
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.5);
+    filter:blur(3px);
+}
+
+#humans6 {
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.7);
+    filter:blur(2px);
+}
+
+#humans7 {
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.9);
+    filter:blur(1px);
+}
+
+#humans8 {
+    font-weight: bold;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+#dont2{
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.0);
+    filter:blur(4px);
+}
+
+#dont3 {
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.1);
+    filter:blur(4px);
+}
+
+#dont4 {
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.2);
+    filter:blur(4px);
+}
+
+#dont5 {
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.3);
+    filter:blur(3px);
+}
+
+#dont6 {
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.4);
+    filter:blur(3px);
+}
+
+#dont7 {
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.5);
+    filter:blur(2px);
+}
+
+#dont8 {
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.7);
+    filter:blur(2px);
+}
+
+
+#dont9 {
+    font-weight: bold;
+    color: rgba(255, 255, 255, 1);
+   
+}
+
+
+
+.button{
+    margin-bottom: 10%;
     text-align:center;
-    color:beige;
-    height: 300px;
 }
 
-#cadence{
-    background-color: rgb(255, 115, 0);
-    background-size: 100% 100%;
-    border-radius: 10%;
-    padding: 10%;
-    margin: 5%;
-    display:flex;
-    align-items: center;
-    justify-content: center;
+.humans, .bloom, .dont{
     text-align:center;
-    color:beige;
-    height: 300px;
 }
 
-#werner{
-    background-color: rgb(65, 45, 181);
-    background-size: 100% 100%;
-    border-radius: 10%;
-    padding: 10%;
-    margin: 5%;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    text-align:center;
-    color:beige;
-    height: 300px;
-}
-
-#maria{
-    background-color: goldenrod;
-    background-size: 100% 100%;
-    border-radius: 10%;
-    padding: 10%;
-    margin: 5%;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    text-align:center;
-    color:beige;
-    height: 300px;
-}
-
-#atienna{
-    background-color: green;
-    background-size: 100% 100%;
-    border-radius: 10%;
-    padding: 10%;
-    margin: 5%;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    text-align:center;
-    color:beige;
-    height: 300px;
-}
-
-#jericho{
-    background-color: rgb(193, 191, 191);
-    background-size: 100% 100%;
-    border-radius: 10%;
-    padding: 10%;
-    margin: 5%;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    text-align:center;
-    color: black;
-    height: 300px;
-}
-.oliveimage{
-    background-image: url("/images/olivetrue.png");
-}
-
-.cadenceimage{
-    background-image: url("/images/cadencetrue.png");
-}
-
-.wernerimage{
-    background-image: url("/images/wernertrue.png");
-}
-
-.mariaimage{
-    background-image: url("/images/marietrue.png");
-}
-
-.jerichoimage{
-    background-image: url("/images/jeritrue.png");
-}
-
-.atiennaimage{
-    background-image: url("/images/atiennatrue.png");
-}
-#specialButton{
+.byebye{
     display: none;
 }
 
+.wrapper {
+    background-color: black;
+    height:100%;
+    width: auto;
+    margin:15% 25% 2% 25%;
+    text-align: center;
+    padding: 1% 0%;
+    font-size: xx-large;
+}
 .center{
     display:block;
     margin-left: auto;
@@ -143,30 +162,4 @@ a:hover{
     margin-top: 0%;
 }
 
-@media (min-width:400px){
-   #specialButton{
-     display:contents;
-    }
-    #gallery{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: auto;
-    }
-    .holder{
-        background-color: #242527;
-        height: 100%;
-        padding-top: 2%;
-        padding-bottom: 2%;
-        margin: 5%;
-    } 
-}
-@media (min-width:750px){
-    #specialButton{
-        display: none;
-    }
-    #gallery{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: auto;    
-    }
-}
+
